@@ -1,3 +1,4 @@
-plugins { id("com.android.application"); id("org.jetbrains.kotlin.android") }
-android { namespace = "com.example.twomhub"; compileSdk = 35
- defaultConfig { applicationId = "com.example.twomhub"; minSdk = 26; targetSdk = 35; versionCode = 1; versionName = "0.4" } }
+plugins {
+    id("com.android.application") version "8.5.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.24" apply false
+}
